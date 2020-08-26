@@ -1,12 +1,11 @@
 <template>
     <div class="loginBack">
         <div class="box-card">
-            <el-input style="margin-bottom: 16px" clearable v-model="userName" placeholder="请输入账户名"></el-input>
+            <el-input style="margin-bottom: 16px" clearable v-model="userName" placeholder="请输入用户名"></el-input>
             <el-input style="margin-bottom: 16px" type="password" clearable  v-model="password" placeholder="请输入密码"></el-input>
             <div class="btn login" @click="login">登录</div>
         </div>
     </div>
-
 </template>
 
 <script>
@@ -27,6 +26,14 @@
                 'getUserInfo'
             ]),
             login(){
+                if(!this.userName) {
+                    this.$Message.error('请输入用户名！')
+                    return
+                }
+                if(!this.password) {
+                    this.$Message.error('请输入密码！')
+                    return
+                }
                 this.handleLogin({
                     userName:this.userName,
                     password:this.password
