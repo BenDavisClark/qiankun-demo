@@ -38,6 +38,6 @@ module.exports = {
         open:true,
         // proxy: '',//代理地址
         host: 'localhost',
-        port: 9428,
+        port: 9527
     },
 }
