@@ -1,4 +1,4 @@
-主应用和子应用均采用vue-cli4脚手架创建的demo
+-- 主应用和子应用均采用vue-cli4脚手架创建的demo
 
 目录下  
 qiankun-master 为主应用  
