@@ -319,6 +319,6 @@ https://qiankun.umijs.org/zh/faq
 https://github.com/a758801405/qiankun-demo.git
 
 ### 五 预览
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/38f297ed204d41dfb12e7ad91eaad1e9~tplv-k3u1fbpfcp-zoom-1.image)
+![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d60652ca82f1415c9db0f852109d3e67~tplv-k3u1fbpfcp-zoom-1.image)
 ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d22feef5973d4499a22caa4515e9fa47~tplv-k3u1fbpfcp-zoom-1.image)
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f8a2df1297f2431a9993340394feaafd~tplv-k3u1fbpfcp-zoom-1.image)
