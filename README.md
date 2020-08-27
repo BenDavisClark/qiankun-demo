@@ -1,7 +1,7 @@
-####目录下  
+#### 目录下  
 -- qiankun-master 为主应用 -- sub-app1 为子应用 -- sub-app2 为子应用  
 
-####运行项目  
+#### 运行项目  
 -- 切换到qiankun-master  
 cd qiankun-master  
 -- 安装依赖  
