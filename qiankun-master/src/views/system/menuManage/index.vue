@@ -88,7 +88,34 @@
         name: "index",//菜单管理
         data() {
             return {
-                menuList: [ ],
+                menuList: [
+                    {
+                        id: 1,
+                        title: '系统功能',
+                        name:"system",
+                        description:"",
+                        children: [
+                            {
+                                id: 11,
+                                title: '菜单管理',
+                                name:"userManage",
+                                description:"",
+                            },
+                            {
+                                id: 12,
+                                title: '角色管理',
+                                name:"roleManage",
+                                description:"",
+                            },
+                            {
+                                id: 13,
+                                title: '用户管理',
+                                name:"userMange",
+                                description:"",
+                            }
+                        ]
+                    },
+                ],
                 defaultProps: {
                     children: 'children',
                     label: 'title',
@@ -109,6 +136,7 @@
         mounted() {
             let menuNodeList = menuNodeQuery();
             let menuDetail = menuNodeDetailQuery(1);
+            console.log(menuNodeList)
             if(menuNodeList !== undefined && menuNodeList!==null){
                 this.menuList = menuNodeList;
             }
