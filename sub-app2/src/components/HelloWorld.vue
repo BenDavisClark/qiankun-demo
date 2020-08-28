@@ -17,7 +17,7 @@ export default {
 <style scoped lang="scss">
 .hello2{
     h1{
-        color: blueviolet;
+        color: #333;
     }
 }
 h3 {

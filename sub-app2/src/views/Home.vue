@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Home by app2!"/>
+    <HelloWorld msg="子应用2组件"/>
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
     <div class="menuManage">
-        <el-button v-if="isMenuNode" @click="createInit">
-            创建初始菜单
-        </el-button>
+        <!--<el-button v-if="isMenuNode" @click="createInit">-->
+            <!--创建初始菜单-->
+        <!--</el-button>-->
         <div class="main">
             <div class="list card">
                 <el-tree
@@ -63,14 +63,14 @@
                         <el-input v-model="form.description" :disabled="formSate === `query`" size="small" placeholder="请输入"></el-input>
                     </div>
                 </div>
-                <div class="item btn">
-                    <el-button size="small" type="primary" @click="edit()">修改</el-button>
-                    <el-button size="small" type="primary" @click="add()">新增</el-button>
-                    <template v-if="formSate === `add`||formSate === `edit`">
-                        <el-button v-show="formSate === `edit`" size="small" type="success" @click="saveEdit()">保存修改</el-button>
-                        <el-button v-show="formSate === `add`" size="small" type="success" @click="saveAdd()">保存新增</el-button>
-                    </template>
-                </div>
+                <!--<div class="item btn">-->
+                    <!--<el-button size="small" type="primary" @click="edit()">修改</el-button>-->
+                    <!--<el-button size="small" type="primary" @click="add()">新增</el-button>-->
+                    <!--<template v-if="formSate === `add`||formSate === `edit`">-->
+                        <!--<el-button v-show="formSate === `edit`" size="small" type="success" @click="saveEdit()">保存修改</el-button>-->
+                        <!--<el-button v-show="formSate === `add`" size="small" type="success" @click="saveAdd()">保存新增</el-button>-->
+                    <!--</template>-->
+                <!--</div>-->
             </div>
         </div>
 
