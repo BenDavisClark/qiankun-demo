@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1>我是子应用一，sub-app1</h1>
         <router-link to="/sub-app1">子应用1:home页面</router-link> |
         <router-link to="/sub-app1/about">子应用1:about页面</router-link>
     </div>
@@ -14,17 +13,16 @@
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  .home,.about{
+    text-align: center;
+  }
 }
-
 #nav {
-  padding: 30px;
-
+  padding: 50px;
   a {
     font-weight: bold;
     color: #2c3e50;
-
     &.router-link-exact-active {
       color: #42b983;
     }

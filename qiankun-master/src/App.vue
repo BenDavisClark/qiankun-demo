@@ -1,7 +1,7 @@
 <template>
     <div id="root" class="mainApp">
         <template v-if="!isChildApp">
-            <router-view/>
+            <router-view />
         </template>
         <template v-show="isChildApp" >
             <wu-layoutMain :loading="loading" :isChildApp="isChildApp" :content="content"></wu-layoutMain>
